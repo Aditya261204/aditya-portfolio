@@ -1,0 +1,129 @@
+<!-- HTML -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link href="index.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
+  <title>Aditya Portfolio</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="left">Aditya</div>
+      <div class="right">
+        <ul>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="first_section">
+      <div class="centeredsection">
+        <span id="greeting" class="greet"></span>
+        <div>Hi, ADITYA YASHODA SHANKAR TODKAR Here,</div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="second_section" id="about">
+      <hr />
+      <div class="about-container">
+        <div class="about-left">
+          <h2 class="section-title center-text">About Me</h2>
+          <p class="about-text">
+            I'm Aditya Yashoda Shankar Todkar, Completed 
+            Graduation in Bachelor of Science in Information Technology from Gyanodaya B.Sc.IT College affiliated with the University of Mumbai.
+            I'm enthusiastic about Programming, Ethical Hacking, and Graphics. Previously, I interned at I Future Technology.
+          </p>
+        </div>
+        <div class="about-right">
+          <div class="photo-frame">
+            <img src="aditya photo.jpg" alt="Aditya's Photo" />
+          </div>
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/aditya-todkar-3bb3752a1" target="_blank" class="linked">LinkedIn</a>
+            <a href="https://www.instagram.com/adityatodkar7" target="_blank" class="insta">Instagram</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="third_section" id="education">
+      <hr />
+      <h2 class="section3-title center-text">Education</h2>
+
+      <div class="edu-item">
+        <h3>B.Sc. in Information Technology</h3>
+        <p>University Of Mumbai</p>
+        <span class="edu-date">2022 – 2025</span>
+      </div>
+
+      <div class="edu-item">
+        <h3>HSC (Science)</h3>
+        <p>Gyanodaya Junior College, Thane</p>
+        <span class="edu-date">2020 – 2022</span>
+      </div>
+
+      <div class="edu-item">
+        <h3>SSC</h3>
+        <p>Gyanodaya Vidya Mandir, Thane</p>
+        <span class="edu-date">2010 – 2020</span>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills_section" id="skills">
+      <hr />
+      <h2 class="section4-title center-text">Skills</h2>
+
+      <div class="skills-flex">
+        <div class="skill-box">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" class="skill-icon" />
+          <div class="skill-info">
+            <h3>Languages</h3>
+            <p>(Python, Java)</p>
+          </div>
+        </div>
+
+        <div class="skill-box">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" class="skill-icon" />
+          <div class="skill-info">
+            <h3>Web Design & Development</h3>
+            <p>(HTML, CSS, JavaScript)</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="fourth_section" id="projects">
+      <hr />
+      <h2 class="section5-title">Projects</h2>
+
+      <div class="projects-container">
+        <div class="project-box">
+          <h3>Community Ahead</h3>
+          <p>A community-based website designed to connect people and promote local engagement.</p>
+        </div>
+
+        <div class="project-box">
+          <h3>WCC – Python Game</h3>
+          <p>A cricket game built in Python. Still under development, but features core gameplay logic.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="index.js"></script>
+</body>
+</html>
