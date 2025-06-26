@@ -59,6 +59,24 @@ nav ul li a:hover {
 .centeredsection {
   font-size: 2rem;
 }
+.resume-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s, color 0.3s;
+}
+
+.resume-btn:hover {
+  background-color: white;
+  color: rgb(14, 0, 48);
+}
+
 
 .greet {
   display: block;
